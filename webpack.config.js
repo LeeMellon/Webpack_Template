@@ -17,12 +17,12 @@ module.exports = {
   new UglifyJsPlugin({ sourceMap: true }),
   new CleanWebpackPlugin(['dist']),
   new HtmlWebpackPlugin({
-    title: 'Ping Pong',
+    title: 'XXXXX',
     template: './src/index.html',
     inject: 'body'
   })
 ],
-  module: {
+module: {
     rules: [
       {
         test: /\.css$/,
@@ -33,11 +33,19 @@ module.exports = {
       },
       {
         test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader"
+      },
+      {
+        test: /\.js$/,
         exclude: [
           /node_modules/,
           /spec/
         ],
-        loader: "eslint-loader"
+        loader: "babel-loader",
+        options: {
+          presets: ['es2015']
+        }
       }
     ]
   }
