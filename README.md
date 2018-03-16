@@ -39,7 +39,7 @@ _To suggest changes, submit a pull request in the GitHub repository._
 
 * HTML
 * Bootstrap
-*JavaScript
+* JavaScript
 * Webpack
 * Karma
 * Jasmine
