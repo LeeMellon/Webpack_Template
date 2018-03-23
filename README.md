@@ -10,6 +10,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
+* _Navigate to or create a parent directory for your copy of XXXXXXXX._
 
 * _Clone this GitHub repository_
 
@@ -17,12 +18,17 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 git clone https://github.com/XXXXXXXXX/XXXXXXXX.git
 ```
 
-* _Setup Webpack and other dependencies_
+* _Setup Webpack and other dependencies by typing 'npm install' into the console_
 
+* _Next type 'npm install -g karma -cli'_
 
-* _Run the program_
+* _Next type 'npm run build' to make sure everything is installed correctly._
 
-* _View program on web browser at port localhost:5000/_
+* _You can type 'npm test' to run the testing routine._
+
+* _Run the program by typing 'npm run start_
+
+* _View program on web browser at port localhost:5000/ (or localhost:8080/)_
 
 * _Follow the prompts._
 
